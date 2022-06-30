@@ -16,13 +16,13 @@ html {
 
 :root {
   --background: linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%);
-
+  --black: #000000;
   --primary: #ffff;
   --secondary:  #FA9021;
 }
 
 body {
-  background: var(--background);
+  background: var(--black);
 }
 
 body, button, textarea, input {
