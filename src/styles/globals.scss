@@ -15,10 +15,10 @@ html {
 }
 
 :root {
-  --background: #f5f6fa;
+  --background: linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%);
 
-  --primary: #373D4F;
-  --secondary: #9098AE;
+  --primary: #ffff;
+  --secondary:  #FA9021;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 
 body, button, textarea, input {
   color: var(--primary);
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "Poppins", sans-serif;
 }
 
 a {
