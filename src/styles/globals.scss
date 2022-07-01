@@ -17,8 +17,8 @@ html {
 :root {
   --background: linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%);
   --black: #000000;
-  --primary: #ffff;
-  --secondary:  #FA9021;
+  --white: #ffff;
+  --orange:  #FA9021;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 }
 
 body, button, textarea, input {
-  color: var(--primary);
+  color: var(--white);
   font: 400 1rem "Poppins", sans-serif;
 }
 
