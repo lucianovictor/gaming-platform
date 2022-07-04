@@ -24,6 +24,11 @@
     border-radius: 6px;
     font-size: 0.875rem;
     line-height: 1.25rem;
+    transition: filter 0.4s;
+
+    &:hover {
+      filter: brightness(0.84);
+    }
   }
 }
 
