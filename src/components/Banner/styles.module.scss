@@ -1,0 +1,63 @@
+.background {
+  background-image: url('../../assets/joy_stick.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 761px;
+  left: 933px;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 147px;
+
+
+  h3 {
+    width: 162px;
+    height: 31px;
+    // margin-top: 17px;
+
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: var(--orange);
+  }
+
+  h1 {
+    width: 480px;
+    height: 234px;
+    top: 251px;
+
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 4.875rem;
+  }
+
+  p {
+    width: 527px;
+    height: 101px;
+
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+
+  }
+
+  button {
+    width: 195px;
+    height: 53px;
+    margin-top: 50px;
+
+    border-radius: 40px;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    transition: filter 0.4s;
+
+    &:hover {
+      filter: brightness(0.84);
+    }
+  }
+}
