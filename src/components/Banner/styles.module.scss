@@ -1,5 +1,5 @@
 .background {
-  background-image: url('../../assets/joy_stick.png');
+  background-image: url('../../../public/assets/joy_stick.png');
   background-position: bottom;
   background-repeat: no-repeat;
   position: absolute;
@@ -19,7 +19,6 @@
   h3 {
     width: 162px;
     height: 31px;
-    // margin-top: 17px;
 
     font-weight: 700;
     font-size: 1.25rem;
@@ -59,5 +58,6 @@
     &:hover {
       filter: brightness(0.84);
     }
+
   }
 }

@@ -11,8 +11,6 @@ export const Banner = () => (
       </p>
       <button type="button">Get more details</button>
     </div>
-    <div className={styles.background}>
-      <img src="../../assets/joy_stick.png" alt="" />
-    </div>
+    <div className={styles.background}></div>
   </section>
 )
