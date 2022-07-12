@@ -3,33 +3,25 @@
   align-items: flex-start;
   justify-content: space-between;
   left: 147px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 700px;
+  column-gap: 653px;
 
   h1 {
-    display: flex;
-    top: 893px;
-    padding-left: 700px;
-
     font-weight: 700;
     font-size: 2rem;
     line-height: 3.625rem;
   }
 
   button {
-    display: flex;
-    width: 145px;
-    height: 53px;
-    margin-top: 50px;
-    margin: auto;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.11);
+    width: 139px;
+    height: 57px;
 
-    font-size: 1.25rem;
-    line-height: 2.375rem;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
   }
-}
-.images {
-  background: url(../../../public/assets/game-1.png);
-  margin-top: 57px;
-  width: 251px;
-  height: 277px;
 }
